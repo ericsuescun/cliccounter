@@ -14,3 +14,10 @@ end
 post '/' do
 	redirect to('/?incr=' + (params[:var].to_i + 1).to_s)
 end
+
+# require 'sinatra'
+
+# get '/' do
+#   @number = params[:number]
+#   erb :index
+# end
